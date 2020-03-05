@@ -4,10 +4,10 @@
 # Site settings
 title: P1ck It!
 description: |
-  Another fine responsive  
-  site template freebie  
-  crafted by HTML5 UP
-owner: Jay. # or company name
+  안녕하세요, 사이트 오픈예정입니다.
+  감사합니다.
+#  Jay Kim.
+owner: P1ck.it # or company name
 first_published: 2020 # if migrating another site, the year of your first publish
 email: p1ck.it@kakao.com
 baseurl: "" # the subpath of your site, e.g. /blog
