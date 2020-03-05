@@ -1,59 +1,77 @@
-# Welcome to Jekyll!
-#
+# ----
+# Site
 
-# Site settings
-title: P1ck It!
-description: |
-  안녕하세요, 사이트 오픈예정입니다.
-  감사합니다.
-#  Jay Kim.
-owner: P1ck.it # or company name
-first_published: 2020 # if migrating another site, the year of your first publish
-email: p1ck.it@kakao.com
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://p1ck.it/" # the base hostname & protocol for your site
+title: P1ck it!
+url: https://p1ck.it
+baseurl:
+google_analytics_key:
+
+# Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
+logo: /siteicon.png
+description: Jekyll template with example content for a not-for-profit organisation.
+author:
+  name:
+  email:
+  twitter: # twitter username without the @ symbol
 social:
-  #twitter: https://twitter.com/<username>
-  #github: https://github.com/<username>
-  #linkedin-square: https://linkedin.com/in/<username>
-  #facebook-official: https://facebook.com/<username>
-  #google-plus-square: https://plus.google.com/u/0/+<username>
-  #email: /contact/
-  #flickr:
-  #instagram:
-  #youtube-square:
-  #spotify:
-  #stack-overflow:
-  #vimeo:
-  #reddit:
-  #stubleupon:
-  #delicious:
-  #pied-piper:
-  #digg:
-  #soundcloud:
-  #deviantart:
-  #angellist:
-  #tumblr-square:
-  #stackexchange:
-  #weibo:
-  #trello:
-  #foursquare:
-  #linux:
-  #bitbucket-square:
-  #vk:
-  #slack:
-  #vine:
-  #weixin:
-  #yelp:
-  #skyatlas:
-  #leanpub:
-  #connectdevelop:
-  #ils:
-  #forumbee:
-  #tripadvisor:
-  #amazon:
+  name: Cause Template
+  links:
+    - https://github.com/CloudCannon/cause-jekyll-template
 
-# Build settings
-markdown: kramdown
-#sass:
-#  style: compressed
+# -----
+# Build
+
+timezone: Etc/UTC
+
+collections:
+  staff_members:
+    _icon: account_circle
+    _hide_content: true
+    _options:
+      image:
+        width: 250
+        height: 250
+
+permalink: pretty
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      _options:
+        content:
+          width: 1880
+          height: 1880
+          uploads_dir: "/images/posts/"
+  -
+    scope:
+      path: ""
+    values:
+      layout: "default"
+
+donation_embed: '<script src="https://donorbox.org/widget.js" type="text/javascript"></script><iframe src="https://donorbox.org/embed/give-sheep-the-vote?hide_donation_meter=true" height="685px" width="100%" style="max-width:425px; min-width:310px" seamless="seamless" id="dbox-form-embed" name="donorbox" frameborder="0" scrolling="no"></iframe>'
+newsletter_action: "//your-mailchimp-action-url.com"
+
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - LICENCE
+
+# -----------
+# CloudCannon
+
+_options:
+  header_background_image:
+    width: 1880
+    height: 1880
+  newsletter_background_image:
+    width: 1880
+    height: 1880

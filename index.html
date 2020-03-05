@@ -1,106 +1,109 @@
 ---
-layout: landing
+layout: default
+title: The Sheep Vote
 ---
-				<!-- Banner -->
-					<section id="banner">
-						<div class="inner">
-							<h2>{{ site.title }}</h2>
-							<p>{{ site.description | markdownify }}</p>
-							<!--<ul class="actions">
-								<li><a href="#" class="button special">Activate</a></li>
-							</ul>-->
-						</div>
-						<a href="#one" class="more scrolly">Learn More</a>
-					</section>
+<header>
+	<div class="container">
+		<div class="column">
+			<div>
+				<h1 class="editable">Give sheep the vote</h1>
+				<p class="editable">Sheep are the backbone of the economy yet they receive no compensation.</p>
+				<div class="button">
+					<a href="#donate">Donate Now</a>
+				</div>
+			</div>
+		</div>
+		<div class="column">
+			<img src="{{ site.baseurl }}/images/sheep.jpg" alt="Sheep">
+		</div>
+	</div>
+</header>
 
-				<!-- One -->
-					<section id="one" class="wrapper style1 special">
-						<div class="inner">
-							<header class="major">
-								<h2>제목1<br />
-								제목1</h2>
-								<p>내용1<br />
-								내용1</p>
-							</header>
-							<ul class="icons major">
-								<li><span class="icon fa-diamond major style1"><span class="label">Lorem</span></span></li>
-								<li><span class="icon fa-heart-o major style2"><span class="label">Ipsum</span></span></li>
-								<li><span class="icon fa-code major style3"><span class="label">Dolor</span></span></li>
-							</ul>
-						</div>
-					</section>
+<div class="container">
+	<h2 class="editable" style="text-align: center;">Why sheep need the vote</h2>
 
-				<!-- Two -->
-					<section id="two" class="wrapper alt style2">
-						<section class="spotlight">
-							<div class="image"><img src="images/pic01.jpg" alt="" /></div><div class="content">
-								<h2>1. Mission 1<br />
-								Mission 1</h2>
-								<p>Mission1 내용</p>
-							</div>
-						</section>
-						<section class="spotlight">
-							<div class="image"><img src="images/pic02.jpg" alt="" /></div><div class="content">
-								<h2>2. Mission 2<br />
-								Mission 2</h2>
-								<p>Mission2 내용</p>
-							</div>
-						</section>
-						<section class="spotlight">
-							<div class="image"><img src="images/pic03.jpg" alt="" /></div><div class="content">
-								<h2>3. Mission 3<br />
-								Mission 3</h2>
-								<p>Mission3 sodyd</p>
-							</div>
-						</section>
-					</section>
+	<ul class="thirds">
+		<li>
+			<div class="image">{% include icons/site.html icon="population" %}</div>
+			<h3 class="editable">Population</h3>
+			<p class="editable">New Zealand has a human population of just 4.5M while there are 70M sheep. </p>
+		</li>
 
-				<!-- Three -->
-					<section id="three" class="wrapper style3 special">
-						<div class="inner">
-							<header class="major">
-								<h2>Section3</h2>
-								<p>Section3 내용</p>
-							</header>
-							<ul class="features">
-								<li class="icon fa-paper-plane-o">
-									<h3>내용1</h3>
-									<p>Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat.</p>
-								</li>
-								<li class="icon fa-laptop">
-									<h3>내용2</h3>
-									<p>Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat.</p>
-								</li>
-								<li class="icon fa-code">
-									<h3>내용3</h3>
-									<p>Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat.</p>
-								</li>
-								<li class="icon fa-headphones">
-									<h3>내용4</h3>
-									<p>Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat.</p>
-								</li>
-								<li class="icon fa-heart-o">
-									<h3>내용5</h3>
-									<p>Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat.</p>
-								</li>
-								<li class="icon fa-flag-o">
-									<h3>내용6</h3>
-									<p>Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat.</p>
-								</li>
-							</ul>
-						</div>
-					</section>
+		<li>
+			<div class="image">{% include icons/site.html icon="economy" %}</div>
+			<h3 class="editable">Economy</h3>
+			<p class="editable">Sheep are the backbone of the economy yet they receive no compensation.</p>
+		</li>
 
-				<!-- CTA -->
-					<section id="cta" class="wrapper style4">
-						<div class="inner">
-							<header>
-								<h2>Last!</h2>
-								<p>마지막 내용.</p>
-							</header>
-							<ul class="actions vertical">
-								<li><a href="#" class="button fit special">버튼1</a></li>
-								<li><a href="#" class="button fit">버튼2</a></li>
-							</ul>
-						</div>
-					</section>
+		<li>
+			<div class="image">{% include icons/site.html icon="conditions" %}</div>
+			<h3 class="editable">Work Conditions</h3>
+			<p class="editable">Sheep are forced to eat grass every day of their life. How about some of variety?</p>
+		</li>
+	</ul>
+</div>
+
+<div class="container">
+	<div class="columns">
+		<div>
+			<img src="{{ site.baseurl }}/images/sheep2.jpg" alt="Sheep">
+		</div>
+		<div>
+			<h2 class="editable">Our Mission</h2>
+
+			<p class="editable">Leave no sheep behind. Our mission to give sheep the right to vote and have them represented in parliament. For too long sheep have been exploited for their warm wool and delicious meat. It's time to put our hooves down and baa for what's right. Give sheep the vote!</p>
+		</div>
+	</div>
+</div>
+
+<div class="container">
+	<hr>
+	<blockquote>
+		<p class="quote editable">The ultimate measure of a sheep is not where he stands in moments of comfort and convenience, but where he stands at times of challenge and controversy.</p>
+		<div class="attribute">
+			<p class="meta">
+				<span class="image"><img class="editable" src="{{ site.baseurl }}/images/wooly.jpg" alt="Wooly"></span>
+				<span class="author editable"><strong>Wooly McBaa</strong></span>
+			</p>
+		</div>
+	</blockquote>
+</div>
+
+<div class="darker">
+	<div class="container">
+		<h2 class="editable">Join us</h2>
+		<p class="editable" style="text-align: center;">Sign up to hear the latest news and progress in our fight for the sheep vote.</p>
+		<form action="{{ site.newsletter_action }}" method="post">
+			<input type="text" name="EMAIL" placeholder="Email">
+			<input type="submit" value="Sign up"/>
+		</form>
+	</div>
+</div>
+
+<div class="container" id="donate">
+	<h2 class="editable">Make a donation</h2>
+	<div class="donate">
+		{{ site.donation_embed }}
+	</div>
+</div>
+
+<div class="darker">
+	<div class="container">
+		<h2 class="editable">Updates</h2>
+		<p class="editor-link"><a href="cloudcannon:collections/_posts" class="btn"><strong>&#9998;</strong> Add Update</a></p>
+		<div class="posts">
+			{% for post in site.posts %}
+				<div class="post">
+					<div class="image" style="background-image: url({{ post.featured_image}})"></div>
+					<div class="post-content">
+						<p class="date">{{ post.date | date: '%B %d, %Y' }}</p>
+						<h3>{{ post.title }}</h3>
+
+						{{ post.content }}
+						<p class="editor-link"><a href="cloudcannon:collections/{{ post.path }}" class="btn"><strong>&#9998;</strong> Edit Update</a></p>
+					</div>
+				</div>
+			{% endfor %}
+		</div>
+	</div>
+</div>
