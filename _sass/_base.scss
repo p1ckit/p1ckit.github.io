@@ -317,12 +317,12 @@ header {
 }
 
 // Contact
-#contact {
-    background-color: #222;
-    color: #eeeeee
-} //contact 섹션 배경 및 글자색 수정
+//#contact {
+//    background-color: #222;
+//    color: #eeeeee
+//} //contact 섹션 배경 및 글자색 수정
 #contact .fa {
-    color: #eeeeee;//$theme-dark -> #eeeeee 아이콘 색상 수정
+    color: $theme-dark;//$theme-dark -> #eeeeee 아이콘 색상 수정
     font-size: 4em;
 }
 
